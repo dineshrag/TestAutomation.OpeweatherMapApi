@@ -35,9 +35,9 @@ I would also like to know how many days it is predicted to be sunny in the same 
 1)  It will print console output for each executed step.<br>
 2)  API response verification (status code) can be done and validated against the user expectation by using Assertions.<br>
 3)  When the user reaches the step "I have retrieved the number of days and dates where the temperature is predicted to be above '20' degree Celsius"
-    i) Firstly, it will display all records with S.No, Country, City, DateTime and Temperature
+    i) Firstly, it will display all records with S.No, Country, City, DateTime and Temperature<br>
     ii) Secondly, it will display only records which meet users criteria (for eg >= 20 deg Celsius). It is easy for the user to validate what data is coming from the API and what data filtered out.<br>
 4)  when a user reaches "I also retrieved how many days it is predicted to be 'Clouds' in the same time period"
-    i) Firstly, it will display all records with S.No, Country, City, DateTime and Weather Condition
+    i) Firstly, it will display all records with S.No, Country, City, DateTime and Weather Condition<br>
     ii) Secondly, it will display only records which meet users criteria (for eg == Clear). It is easy for the user to validate what data is coming from the API and what data filtered out.<br>
 5)  Similarly, it will give a count for #How many days are going to be Clouds (user-defined weather condition it can be Clear, Clouds, Rain etc) 17 and #Number of days the city temperature is greater than or equal to 20 (user-defined value in Celsius) is 3.<br>
