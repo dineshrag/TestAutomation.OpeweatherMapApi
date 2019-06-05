@@ -1,21 +1,21 @@
 # TestAutomation.OpeweatherMapApi
 
 <b>Prerequesite:</b><br>
-•	VisualStudio 2012/15/17/19.
-•	I have used Visual Studio 2017 Community Edition to develop the code.
-•	Installation Steps : https://visualstudio.microsoft.com/downloads/
+•	VisualStudio 2012/15/17/19.<br>
+•	I have used Visual Studio 2017 Community Edition to develop the code.<br>
+•	Installation Steps : https://visualstudio.microsoft.com/downloads/<br>
 
-<b>Pacakges Installation Steps and guidelines:</b>
+<b>Pacakges Installation Steps and guidelines:</b><br>
 •	I have used Specflow, Nunit3, Newtonsoft.Json and Console Tables Packages to build the project.<br>
 •	Follow Specflow Installation guidelines from : https://www.nuget.org/packages/SpecFlow/<br>
 •	Follow Nunit Installation guidelines from : https://www.nuget.org/packages/NUnit/<br>
 •	Folllow Console Tables Indtallation guidelines from : https://www.nuget.org/packages/ConsoleTables/<br>
 •	Folllow Newtonsoft.Json Indtallation guidelines from : https://www.nuget.org/packages/Newtonsoft.Json/<br>
 
-Please add reference "System.Net.Http" Reference to the project (if not already added into the project).
+Please add reference "System.Net.Http" Reference to the project (if not already added into the project).<br>
 
-<b>Deep Insughts into Project and Test Scenario:</b>
-<b>Feature to automate:</b>
+<b>Deep Insughts into Project and Test Scenario:</b><br>
+<b>Feature to automate:</b><br>
 As a weather enthusiast I would like to know the number of days in Sydney where the temperature is predicated to be above 20 degrees 
 (at the time of calling the API) in the next 5 days, (from the current days date).<br>
 I would also like to know how many days it is predicted to be sunny in the same time period.<br>
